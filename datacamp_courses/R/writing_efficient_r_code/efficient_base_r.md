@@ -63,7 +63,7 @@ Use matrices when dealing primarily with numeric data and performing frequent nu
 
 Dataframes are used when working with heterogeneous data or when you need more flexibility in terms of data types and column names. Dataframes are often more suitable for data analysis tasks that involve data cleaning, transformation, and visualization.
 
-## Best practices for R performance
+## Best practices for performance in R 
 
 - **Pre-allocate vectors**: Whenever possible, pre-allocate vectors to their final size before adding elements. This prevents unnecessary reallocations.
 - **Use vectorizes solutions**: As said above, R has optimized solutions built in for problems in form of vectors functions, this goes the fastest to highly optimized C and Fortran underlying code.
